@@ -1,5 +1,5 @@
 # oauth-project
-> OAuth Project.
+> Google OAuth2 Project.
 
 <br>
 
