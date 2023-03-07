@@ -7,7 +7,7 @@ build/
 src/main/generated
 *.DS_Store
 
-### OAuth ###
+### OAuth2 ###
 src/main/resources/application-oauth.yml
 
 ### STS ###
