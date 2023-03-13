@@ -34,16 +34,20 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
         String registrationId = userRequest
                 .getClientRegistration()
                 .getRegistrationId();
+
         // OAuth2 로그인 진행 시 키가 되는 필드값
         String userNameAttributeName = userRequest
                 .getClientRegistration()
                 .getProviderDetails()
                 .getUserInfoEndpoint()
                 .getUserNameAttributeName();
+
         // OAuthAttributes : attributes를 담을 클래스
         OAuthAttributes attributes = OAuthAttributes
                 .of(registrationId, userNameAttributeName, oAuth2User.getAttributes());
+
         User user = saveOrUpdate(attributes);
+
         // SessionUser : 세션에 사용자 정보를 저장하기 위한 DTO 클래스
         httpSession.setAttribute("user", new SessionUser(user));
 
@@ -56,7 +60,7 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
 
     private User saveOrUpdate(OAuthAttributes attributes) {
         User user = userRepository.findByEmail(attributes.getEmail())
-                .map(entity -> entity.update(attributes.getName()))
+                .map(entity -> entity.update(attributes.getName(), attributes.getProvider()))
                 .orElse(attributes.toEntity());
 
         return userRepository.save(user);

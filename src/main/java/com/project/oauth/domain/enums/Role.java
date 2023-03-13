@@ -1,4 +1,4 @@
-package com.project.oauth.domain;
+package com.project.oauth.domain.enums;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
