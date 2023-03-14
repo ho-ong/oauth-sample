@@ -1,8 +1,9 @@
-spring:
-  # Server
-  server:
-    port: 8080
+# Server
+server:
+  port: 8080
 
+# Spring
+spring:
   # Database
   # MySQL
   datasource:
@@ -16,10 +17,16 @@ spring:
     database: mysql
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     open-in-view: false
-    show_sql: true
-    format_sql: true
+    show-sql: true
+    format-sql: true
     hibernate:
       ddl-auto: create
+
+  # MVC
+  mvc:
+    pathmatch:
+      # path_pattern_parser -> ant_path_matcher 변경 (Swagger2 오류 방지)
+      matching-strategy: ant_path_matcher
 
   # Profiles (application-oauth.yml 포함)
   profiles:
