@@ -20,7 +20,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo()) // apiInfo() 정보 매핑
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.project.oauth.controller"))
-                .paths(PathSelectors.any()) // controller 패키지 모두 추출
+                .paths(PathSelectors.any()) // "com.project.oauth.controller" 문서화
                 .build()
                 .useDefaultResponseMessages(false); // ResponseMessages 디폴트값 적용 X
     }
