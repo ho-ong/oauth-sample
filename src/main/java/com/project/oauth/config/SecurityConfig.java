@@ -28,12 +28,12 @@ public class SecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
                 .httpBasic().disable()
-                .csrf().disable()
                 .formLogin().disable()
+                .csrf().disable()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/api/user").permitAll()
+                .antMatchers("/api/**", "/login/**", "/oauth2/**", "/user/**").permitAll()
                 .and()
                 .oauth2Login().userInfoEndpoint().userService(customOAuth2UserService);
 
