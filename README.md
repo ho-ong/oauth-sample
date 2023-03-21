@@ -24,7 +24,7 @@
 ## MySQL Database 테이블 생성
 ```SQL
 create table user (
-    id            bigint not null auto_increment,
+    id            bigint not null primary key auto_increment,
     email         varchar(255) null,
     name          varchar(255) null,
     password      varchar(255) null,
