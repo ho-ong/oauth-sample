@@ -21,15 +21,24 @@
 
 <br>
 
-## MySQL Database 테이블 생성
+## MySQL Database 계정 생성 및 권한 부여
+```SQL
+create database oauth;
+create hoong@localhost identified by '8888';
+grant all privileges on oauth.* to hoong@localhost;
+```
+
+<br>
+
+## MySQL Database 테이블
 ```SQL
 create table user (
-    id            bigint not null primary key auto_increment,
-    email         varchar(255) null,
-    name          varchar(255) null,
-    password      varchar(255) null,
-    provider      varchar(255) null,
-    role          varchar(255) null
+    id       bigint not null primary key auto_increment,
+    email    varchar(255) null,
+    name     varchar(255) null,
+    password varchar(255) null,
+    provider varchar(255) null,
+    role     varchar(255) null
 );
 ```
 
