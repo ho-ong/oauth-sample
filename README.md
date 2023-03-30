@@ -1,5 +1,5 @@
-# oauth-project
-> Google, Naver, Kakao OAuth2 Project.
+# oauth-sample
+> Google, Naver, Kakao OAuth2 Sample.
 
 <br>
 

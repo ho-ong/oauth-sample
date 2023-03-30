@@ -1,7 +1,7 @@
-package com.project.oauth.config.oauth;
+package com.sample.oauth.config.oauth;
 
-import com.project.oauth.domain.User;
-import com.project.oauth.repository.UserRepository;
+import com.sample.oauth.domain.User;
+import com.sample.oauth.repository.UserRepository;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
 import org.springframework.security.oauth2.client.userinfo.OAuth2UserRequest;

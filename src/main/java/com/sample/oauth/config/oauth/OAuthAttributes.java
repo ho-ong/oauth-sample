@@ -1,7 +1,7 @@
-package com.project.oauth.config.oauth;
+package com.sample.oauth.config.oauth;
 
-import com.project.oauth.domain.enums.Role;
-import com.project.oauth.domain.User;
+import com.sample.oauth.domain.enums.Role;
+import com.sample.oauth.domain.User;
 import lombok.Builder;
 import lombok.Getter;
 

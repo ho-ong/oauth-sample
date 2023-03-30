@@ -1,6 +1,6 @@
-package com.project.oauth.domain;
+package com.sample.oauth.domain;
 
-import com.project.oauth.domain.enums.Role;
+import com.sample.oauth.domain.enums.Role;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
