@@ -1,6 +1,6 @@
-package com.project.oauth.config.oauth;
+package com.sample.oauth.config.oauth;
 
-import com.project.oauth.domain.User;
+import com.sample.oauth.domain.User;
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

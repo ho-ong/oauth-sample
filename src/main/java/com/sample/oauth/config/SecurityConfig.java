@@ -1,6 +1,6 @@
-package com.project.oauth.config;
+package com.sample.oauth.config;
 
-import com.project.oauth.config.oauth.CustomOAuth2UserService;
+import com.sample.oauth.config.oauth.CustomOAuth2UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

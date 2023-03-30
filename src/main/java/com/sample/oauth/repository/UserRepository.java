@@ -1,6 +1,6 @@
-package com.project.oauth.repository;
+package com.sample.oauth.repository;
 
-import com.project.oauth.domain.User;
+import com.sample.oauth.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
