@@ -25,8 +25,7 @@
 <br>
 
 ## Main Function
-- 회원(User) - Google, Naver, Kakao OAuth2 연동
-    - 로그인
+- 회원(User) - Google, Naver, Kakao OAuth2 로그인 연동
 
 <br>
 
