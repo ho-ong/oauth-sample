@@ -25,11 +25,8 @@
 <br>
 
 ## Main Function
-- 회원(User)
+- 회원(User) - Google, Naver, Kakao OAuth2 연동
     - 로그인
-    - 로그아웃
-    - 회원가입
-    - 회원탈퇴
 
 <br>
 
@@ -48,11 +45,11 @@ drop table if exists user;
 
 create table user (
     id       bigint primary key not null auto_increment,
-    email    varchar(255) null,
     name     varchar(255) null,
+    email    varchar(255) null,
     password varchar(255) null,
-    provider varchar(255) null,
-    role     varchar(255) null
+    role     varchar(255) null,
+    provider varchar(255) null
 );
 ```
 
