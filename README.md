@@ -41,9 +41,9 @@ grant all privileges on oauth.* to hoong@localhost;
 
 ## MySQL Database Table
 ```SQL
-drop table if exists user;
+drop table if exists oauth.user;
 
-create table user (
+create table oauth.user (
     id       bigint primary key not null auto_increment,
     name     varchar(255) null,
     email    varchar(255) null,
