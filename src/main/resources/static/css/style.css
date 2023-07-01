@@ -15,9 +15,6 @@ body {
     line-height: 1.5;
     background: #f8f9fa;
     color: #111111;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 h1 {
@@ -52,6 +49,14 @@ a:hover {
 
 .kakao {
     background: #fee500;
+}
+
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
