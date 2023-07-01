@@ -4,13 +4,15 @@
 <br>
 
 ## Development Environment
-<img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat&logo=IntelliJIDEA&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=HTML5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS3&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=coffeescript&logoColor=white" />
-<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white" />
-<img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
+<div style="display: inline-block">
+    <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat&logo=IntelliJIDEA&logoColor=white" />
+    <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=HTML5&logoColor=white" />
+    <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS3&logoColor=white" />
+    <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=coffeescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gradle-02303A?style=flat&logo=Gradle&logoColor=white" />
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
+</div>
 
 - IDE : IntelliJ IDEA
 - Language : JAVA 11 (JDK 11.0.18)
@@ -58,3 +60,18 @@ create table user (
 ```shell
 http://localhost:8080/swagger-ui.html
 ```
+
+<br>
+
+## View
+###### Index
+<img src="image/page/img_page_index.png" />
+
+###### Google Login
+<img src="image/page/img_page_login_google.png" />
+
+###### Naver Login
+<img src="image/page/img_page_login_naver.png" />
+
+###### Kakao Login
+<img src="image/page/img_page_login_kakao.png" />
