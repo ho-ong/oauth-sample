@@ -25,8 +25,7 @@
 <br>
 
 ## Main Function
-- 회원(User) - Google, Naver, Kakao OAuth2 연동
-    - 로그인
+- 회원(User) - Google, Naver, Kakao OAuth2 로그인 연동
 
 <br>
 
@@ -41,9 +40,9 @@ grant all privileges on oauth.* to hoong@localhost;
 
 ## MySQL Database Table
 ```SQL
-drop table if exists user;
+drop table if exists oauth.user;
 
-create table user (
+create table oauth.user (
     id       bigint primary key not null auto_increment,
     name     varchar(255) null,
     email    varchar(255) null,
