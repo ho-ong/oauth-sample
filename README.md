@@ -63,13 +63,13 @@ http://localhost:8080/swagger-ui.html
 
 ## View
 ###### Index
-<img src="image/page/img_page_index.png" />
+<img src="image/page/img_page_index.png" style="border: 1px solid black" />
 
 ###### Google Login
-<img src="image/page/img_page_login_google.png" />
+<img src="image/page/img_page_login_google.png" style="border: 1px solid black" />
 
 ###### Naver Login
-<img src="image/page/img_page_login_naver.png" />
+<img src="image/page/img_page_login_naver.png" style="border: 1px solid black" />
 
 ###### Kakao Login
-<img src="image/page/img_page_login_kakao.png" />
+<img src="image/page/img_page_login_kakao.png" style="border: 1px solid black" />
